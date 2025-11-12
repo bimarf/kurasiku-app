@@ -1,0 +1,9 @@
+name = "kurasiku-app"
+type = "javascript"
+account_id = "a82bb07c0718a03f883e11cc89f8ffdc"
+workers_dev = true
+compatibility_date = "2025-11-12"
+
+[build]
+command = "pnpm build"
+upload = { format = "service-worker" }
